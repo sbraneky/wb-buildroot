@@ -51,6 +51,7 @@ cp board/laird/mfg-reg/rootfs-additions/tcmd.sh ${TARGET_DIR}/usr/bin
 elif [[ "${BR2_LRD_PRODUCT}" == regCypress* ]]; then
 
 echo "/usr/bin/wl
+/usr/bin/lru
 /lib/firmware/brcm/brcmfmac4339-sdio-mfg.bin
 /lib/firmware/brcm/brcmfmac43430-sdio-mfg.bin
 /lib/firmware/brcm/brcmfmac4373-div-mfg.txt" \

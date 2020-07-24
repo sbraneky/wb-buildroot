@@ -1,0 +1,7 @@
+config BR2_PACKAGE_LRU_CYPRESS
+	bool "LWBx Regulatory Utility"
+	select BR2_PACKAGE_LIBNL
+	select BR2_PACKAGE_LIBEDIT
+	help
+		LWB/LWB5/LWB5+ Regulatory Tools
+
